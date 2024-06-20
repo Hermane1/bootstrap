@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mama Wata and Hoodoo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <style>
+    .hero {
+      background: url('https://th.bing.com/th/id/OIP.YNsH8Opce2qffJ7jz7DJPQHaE8?w=239&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7') center center/cover no-repeat;
+      color: rgb(36, 3, 248);
+      padding: 100px 0;
+    }
+    .hero h1 {
+      font-size: 3rem;
+    }
+    .hero .btn {
+      background-color: #7c1902;
+      border: none;
+    }
+    .about-img {
+      width: 100%;
+      height: auto;
+    }
+    .card-icon {
+      font-size: 2rem;
+      color: #c933ff;
+    }
+    footer {
+      background-color: #343a40;
+      color: rgb(241, 237, 241);
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Mama Wata & Hoodoo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero text-center">
+    <div class="container">
+      <h1>Embrace the Mystique of Mama Wata</h1>
+      <p>Explore the world of Hoodoo and spiritual enlightenment.</p>
+      <a href="#about" class="btn btn-primary btn-lg">Learn More</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h2>About Mama Wata</h2>
+          <p>Mama Wata is a celebrated water spirit revered in African and African diasporic cultures. She is known for her beauty, wealth, and the ability to bestow good fortune on her followers.</p>
+          <button class="btn btn-outline-primary mt-3">Read More</button>
+        </div>
+        <div class="col-md-6">
+          <img src="https://th.bing.com/th/id/OIP.HOpSMf7qpFr76M3XJTxvYQHaK0?w=195&h=286&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Mama Wata" class="about-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-5 bg-light">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <i class="bi bi-water card-icon"></i>
+              <h5 class="card-title mt-3">Divine Waters</h5>
+              <p class="card-text">Discover the sacred waters that connect with Mama Wata's spiritual realm.</p>
+              <button class="btn btn-primary">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <i class="bi bi-magic card-icon"></i>
+              <h5 class="card-title mt-3">Hoodoo Practices</h5>
+              <p class="card-text">Learn about the powerful Hoodoo traditions and rituals.</p>
+              <button class="btn btn-primary">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <i class="bi bi-stars card-icon"></i>
+              <h5 class="card-title mt-3">Spiritual Guidance</h5>
+              <p class="card-text">Seek spiritual guidance and protection through Mama Wata's blessings.</p>
+              <button class="btn btn-primary">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Contact Us</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Mama Wata & Hoodoo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
